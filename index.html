@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Meme Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="pageWrapper">
+    <h1>original meme generator</h1>
+    <form id="form">
+        <div id="labels">
+            <label>Image URL</label>
+            <label>Text for top</label>
+            <label>Text for bottom</label>
+        </div>
+        
+        <div id="inputs">
+            <input type="text" name="url" placeholder="Full URL">
+            <input type="text" name="textTop" placeholder="We'll turn this to all caps">
+            <input type="text" name="textBottom" placeholder="We'll turn this to all caps">
+            <input type="submit" name="submit" value="Generate Meme" id="button">
+        </div>
+    </form>
+
+    <div id="memeBoard">
+        <div class="meme">
+            <div class="imageWrapper">
+                <img src="https://imgflip.com/s/meme/Socially-Awesome-Awkward-Penguin.jpg"></div>
+                <h2 class="topText">made meme generator</h2>
+                <h2 class="bottomText">that doesn't export images</h2>
+                <button class="killButton">Kill this meme</button>
+            </div>
+    </div>
+    </div>
+</body>
+<script src="app.js"></script>
+</html>
